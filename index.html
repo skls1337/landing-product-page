@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+    <title>Product Landing</title>
+</head>
+<body>
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+             <a href="index.html" class="logo"><img src="drawables/apple-logo.png" alt="" class="img-fluid"></a>
+            <nav id="nav-bar" class="navbar">
+                <ul>
+                    <li><a class="nav-link " href="#about">IPhone 12</a></li>
+                    <li><a class="nav-link " href="#activity">Artist Activity</a></li>
+                    <li><a class="nav-link  " href="#video">Watch Video</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="about">
+            <div class="container" id="img-div">
+                <div class="row">
+                    <div class="col-lg-6 order-lg-2" data-aos="fade-left" >
+                        <img src="./drawables/iphone-art.jpg" alt="km" >
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+                        <h3>
+                            Thew New IPhone 12
+                        </h3>
+                        <p class="fst-italic" id="img-caption">
+                            iPhone 12 and iPhone 12 mini
+                        </p>
+                        <p>
+                            5G speed. A14 Bionic, the fastest chip in a smartphone.
+                            An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all — in two perfect sizes.
+                        </p>
+                        <p>
+                            From $30.37/mo. for 24 mo. or $699 before trade‑in1
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="video" id="video">
+                <div class="container">
+                    <iframe width="1000" height="595"
+                    src="https://www.youtube.com/embed/65JrtwtTOdc"rameborder="0" allowfullscreen>
+                    </iframe> 
+                </div>
+            
+        </section>
+    </main>
+    <footer id="footer">
+
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
